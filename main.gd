@@ -4,20 +4,29 @@ extends Node
 var score
 
 func _ready():
-	new_game()
+	pass
 
 func game_over():
 	$ScoreTimer.stop()
-	$MobTimer.stop()
+	$MobTimer.stop() 
+	$StartTimer.stop()
+	$Music.stop()
+	$GameOver.play()
+	$HUD.show_game_over()
 	
 func new_game():
+	get_tree().call_group("mobs", "queue_free")
 	score = 0
 	$Player.start($StartPosition.position)
 	$StartTimer.start()
-	
+	$HUD.update_score(score)
+	$HUD.show_message("Get Ready!")
+	$HUD.show()
+	$Music.play()
 
 func _on_score_timer_timeout():
 	score += 1
+	$HUD.update_score(score)
 
 func _on_start_timer_timeout():
 	$MobTimer.start()
@@ -31,7 +40,7 @@ func _on_mob_timer_timeout():
 	
 	var direction = mob_spawn_location.rotation + PI / 2
 	
-	mob.position  = mob_spawn_location.position
+	mob.global_position  = mob_spawn_location.global_position
 	
 	direction += randf_range(-PI / 4, PI / 4)
 	mob.rotation = direction

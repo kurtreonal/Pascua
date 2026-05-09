@@ -213,8 +213,8 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_4flbx"]
 size = Vector2(26, 42)
 
-[node name="Player" type="Area2D" unique_id=260247307]
-position = Vector2(228, 324)
+[node name="Player" type="CharacterBody2D" unique_id=366819914]
+collision_mask = 6
 script = ExtResource("1_onrkg")
 metadata/_edit_group_ = true
 
@@ -225,5 +225,3 @@ animation = &"down"
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=208840558]
 position = Vector2(0, 8)
 shape = SubResource("RectangleShape2D_4flbx")
-
-[connection signal="body_entered" from="." to="." method="_on_body_entered"]
