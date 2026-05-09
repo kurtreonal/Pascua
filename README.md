@@ -1,4 +1,4 @@
-# 🎮 Dodge The Creeps
+# Dodge The Creeps
 
 ![Made with Godot](https://img.shields.io/badge/Made%20with-Godot%204.6-478CBF?style=for-the-badge&logo=godot-engine&logoColor=white)
 ![Language](https://img.shields.io/badge/Language-GDScript-blue?style=for-the-badge)
@@ -9,22 +9,20 @@
 
 ---
 
-## 📖 Project Overview
+## Project Overview
 
-**Dodge The Creeps** is a fast-paced 2D survival game built with the Godot Engine. You control a lone adventurer navigating a lush pixel-art world overrun by relentless monsters — bats and slimes that swarm from every direction. The longer you survive, the higher your score climbs.
+**Dodge The Creeps** is a fast-paced 2D survival game built with the Godot Engine. You control an adventurer in a world overrun by monsters, bats and slimes that swarm from every direction. The longer you survive, the higher your score climbs.
 
-There are no weapons, no power-ups, just you, your reflexes, and the ever-increasing chaos around you. Every run is a race against the clock and the creeps.
+There are no weapons, no power-ups, just you, your reflexes, and the increasing chaos around you.
 
 ---
 
-## ✨ Features
+## Features
 
-- **Endless Survival Gameplay** — Mobs spawn continuously and increase in density over time, keeping the pressure constant.
-- **Dynamic Mob System** — Enemies (bats and slimes) spawn at random positions along the screen border and move toward the play area at varied speeds.
-- **Randomized Mob Types** — Each enemy randomly picks from available animated types, keeping encounters visually varied.
-- **Animated Player Character** — Directional sprite animations for moving up, down, and sideways, creating a responsive feel.
+- **Endless Survival Gameplay** — Mobs spawn continuously, keeping the pressure constant.
+- **Dynamic Mob System** — Enemies (bats and slimes) spawn at random positions and move toward the play area at varied speeds.
 - **Score System** — A live score counter ticks up every second you stay alive.
-- **Pixel-Art Aesthetic** — Handcrafted tile maps, animated environmental decorations, and sprite-based characters built from the Liberated Pixel Cup asset library.
+- **Pixel-Art Aesthetic** — Handcrafted tile maps, animated environmental decorations, and sprite-based characters.
 - **Ambient World Detail** — Static bodies like trees, rocks, and boulders populate the map for visual depth.
 - **Background Music & Sound Effects** — Atmospheric BGM plays during gameplay, with a distinct game-over sound on death.
 - **Clean HUD** — Minimal heads-up display showing your live score, messages, and a start prompt.
@@ -32,17 +30,15 @@ There are no weapons, no power-ups, just you, your reflexes, and the ever-increa
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### Gameplay
-
-> *Screenshot placeholder — replace with an actual in-game screenshot.*
 
 ![Gameplay Screenshot](SSDTCreeps.png)
 
 ---
 
-## 🚀 Installation Guide
+## Installation Guide
 
 ### Prerequisites
 
@@ -74,7 +70,7 @@ There are no weapons, no power-ups, just you, your reflexes, and the ever-increa
 
 ---
 
-## 🎮 Controls
+## Controls
 
 | Action     | Keyboard Keys              |
 |------------|----------------------------|
@@ -86,7 +82,7 @@ There are no weapons, no power-ups, just you, your reflexes, and the ever-increa
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 | Tool / Technology    | Purpose                              |
 |----------------------|--------------------------------------|
@@ -101,7 +97,7 @@ There are no weapons, no power-ups, just you, your reflexes, and the ever-increa
 
 ---
 
-## 🙏 Credits
+## Credits
 
 ### Developer
 - **Pascua**
